@@ -1,0 +1,6 @@
+framework module Pods_rms_mobile_xdk_cocoapods_Example {
+  umbrella header "Pods-rms-mobile-xdk-cocoapods_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
