@@ -36,15 +36,20 @@
     
     // Setup payment details
     NSDictionary * paymentRequestDict = @{
+        @"mp_username": @"SB_molpayxdk",
+        @"mp_password": @"cT54#Lk@22",
+        @"mp_merchant_ID": @"SB_molpayxdk",
+        @"mp_app_name": @"molpayxdk",
+        @"mp_verification_key": @"4445db44bdb60687a8e7f7903a59c3a9",
                                           @"mp_amount": @"1.10", // Mandatory
-                                          @"mp_username": @"abc", // Mandatory
-                                          @"mp_password": @"abc", // Mandatory
-                                          @"mp_merchant_ID": @"abc", // Mandatory
-                                          @"mp_app_name": @"abc", // Mandatory
+//                                          @"mp_username": @"abc", // Mandatory
+//                                          @"mp_password": @"abc", // Mandatory
+//                                          @"mp_merchant_ID": @"abc", // Mandatory
+//                                          @"mp_app_name": @"abc", // Mandatory
                                           @"mp_order_ID": @"abc", // Mandatory
                                           @"mp_currency": @"MYR", // Mandatory
                                           @"mp_country": @"MY", // Mandatory
-                                          @"mp_verification_key": @"abc", // Mandatory
+//                                          @"mp_verification_key": @"abc", // Mandatory
                                           @"mp_channel": @"multi", // Optional
                                           @"mp_bill_description": @"description", // Optional
                                           @"mp_bill_name": @"name", // Optional
@@ -62,7 +67,7 @@
                                           //@"mp_custom_css_url": [[NSBundle mainBundle] pathForResource:@"custom.css" ofType:nil], // Optional for custom UI
                                           //@"mp_is_recurring": [NSNumber numberWithBool:NO] // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf
                                           //@"mp_allowed_channels": [NSArray arrayWithObjects:@"credit", @"credit3", nil] // Optional for channels restriction
-                                          @"mp_sandbox_mode": [NSNumber numberWithBool:YES] // Optional for sandboxed development environment, set boolean value to enable.
+                                          //@"mp_sandbox_mode": [NSNumber numberWithBool:YES] // Optional for sandboxed development environment, set boolean value to enable.
                                           //@"mp_express_mode": [NSNumber numberWithBool:NO] // Optional, required a valid mp_channel value, this will skip the payment info page and go direct to the payment screen.
                                           //@"mp_advanced_email_validation_enabled": [NSNumber numberWithBool:YES] // Optional, enable this for extended email format validation based on W3C standards.
                                           //@"mp_advanced_phone_validation_enabled": [NSNumber numberWithBool:YES] // Optional, enable this for extended phone format validation based on Google i18n standards.
@@ -75,7 +80,7 @@
                                           //@"mp_non_3DS": [NSNumber numberWithBool:YES] // Optional, allow non-3ds on some credit card channels.
                                           //@"mp_card_list_disabled": [NSNumber numberWithBool:YES] // Optional, disable card list option.
                                           //@"mp_disabled_channels": [NSArray arrayWithObjects:@"credit", nil] // Optional for channels restriction, this option has less priority than mp_allowed_channels.
-                                          //@"mp_dev_mode": [NSNumber numberWithBool:YES]
+                                          @"mp_dev_mode": [NSNumber numberWithBool:YES]
                                           };
     
     mp = [[MOLPayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];

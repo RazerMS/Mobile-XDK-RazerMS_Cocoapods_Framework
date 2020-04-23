@@ -1,5 +1,5 @@
 PODS:
-  - rms-mobile-xdk-cocoapods (3.27.2)
+  - rms-mobile-xdk-cocoapods (3.29.0)
 
 DEPENDENCIES:
   - rms-mobile-xdk-cocoapods (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  rms-mobile-xdk-cocoapods: 4d2ab029f8fec9e0b1c57ca892d294450840494f
+  rms-mobile-xdk-cocoapods: b18fda4998e9401bc14d7efbe4f7a891ac9459f2
 
 PODFILE CHECKSUM: 6f4caaf38cdf3b29c4c0219b787311e539fae4f0
 
