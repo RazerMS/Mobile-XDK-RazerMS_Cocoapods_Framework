@@ -36,11 +36,11 @@
     
     // Setup payment details
     NSDictionary * paymentRequestDict = @{
-        @"mp_username": @"SB_molpayxdk",
-        @"mp_password": @"cT54#Lk@22",
-        @"mp_merchant_ID": @"SB_molpayxdk",
-        @"mp_app_name": @"molpayxdk",
-        @"mp_verification_key": @"4445db44bdb60687a8e7f7903a59c3a9",
+        @"mp_username": @"",
+        @"mp_password": @"",
+        @"mp_merchant_ID": @"",
+        @"mp_app_name": @"",
+        @"mp_verification_key": @"",
                                           @"mp_amount": @"1.10", // Mandatory
 //                                          @"mp_username": @"abc", // Mandatory
 //                                          @"mp_password": @"abc", // Mandatory
