@@ -80,7 +80,7 @@
                                           //@"mp_non_3DS": [NSNumber numberWithBool:YES] // Optional, allow non-3ds on some credit card channels.
                                           //@"mp_card_list_disabled": [NSNumber numberWithBool:YES] // Optional, disable card list option.
                                           //@"mp_disabled_channels": [NSArray arrayWithObjects:@"credit", nil] // Optional for channels restriction, this option has less priority than mp_allowed_channels.
-                                          @"mp_dev_mode": [NSNumber numberWithBool:YES]
+                                          //@"mp_dev_mode": [NSNumber numberWithBool:YES]
                                           };
     
     mp = [[MOLPayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];
