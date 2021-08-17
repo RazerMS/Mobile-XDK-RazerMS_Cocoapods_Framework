@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = "rms-mobile-xdk-cocoapods";
+			productName = "rms-mobile-xdk-cocoapods";
 		};
 /* End PBXAggregateTarget section */
 
@@ -50,11 +51,11 @@
 		074B09DB2B5DDDEC505F20DB05581858 /* Pods-rms-mobile-xdk-cocoapods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rms-mobile-xdk-cocoapods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1238AE0202F748FF991037976D3A76EF /* rms-mobile-xdk-cocoapods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "rms-mobile-xdk-cocoapods.xcconfig"; sourceTree = "<group>"; };
 		1885364FE1292B3C58983C32FEA3AC97 /* Pods-rms-mobile-xdk-cocoapods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-rms-mobile-xdk-cocoapods_Example.modulemap"; sourceTree = "<group>"; };
-		1A4C5016158410A9CC2DD931D219CB0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1A4C5016158410A9CC2DD931D219CB0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2DB534773F130877DDECA3CDD27D6C3B /* Pods-rms-mobile-xdk-cocoapods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rms-mobile-xdk-cocoapods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		31944CCD9B23A9AB7DFA205935F86C88 /* Pods-rms-mobile-xdk-cocoapods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rms-mobile-xdk-cocoapods_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32DC05BBC591A0E2A17DE2446147AEF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		32DC05BBC591A0E2A17DE2446147AEF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3AC9978540BF60C3AB9E584446EFE425 /* Pods-rms-mobile-xdk-cocoapods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rms-mobile-xdk-cocoapods_Example-umbrella.h"; sourceTree = "<group>"; };
 		438CDCF1A2296ED32E875ACB15ADC88C /* Pods-rms-mobile-xdk-cocoapods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rms-mobile-xdk-cocoapods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B9CB18DDFB5F6875BBC6B5242973459 /* Pods-rms-mobile-xdk-cocoapods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rms-mobile-xdk-cocoapods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,16 +64,16 @@
 		705947736757D01BE35413BAAEB06FF5 /* Pods-rms-mobile-xdk-cocoapods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rms-mobile-xdk-cocoapods_Tests-dummy.m"; sourceTree = "<group>"; };
 		758FE8B3A0BEB2F7A171A5C38A48EC31 /* Pods-rms-mobile-xdk-cocoapods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rms-mobile-xdk-cocoapods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		937AB0CC7F49BD9DA71F5E15B9A87B64 /* Pods-rms-mobile-xdk-cocoapods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rms-mobile-xdk-cocoapods_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C19A6C21BB56158C519046BB881D520F /* MOLPayXDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
 		C391D5298EDF94A8BD427E9C3FE0D70F /* Pods-rms-mobile-xdk-cocoapods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-rms-mobile-xdk-cocoapods_Tests.modulemap"; sourceTree = "<group>"; };
-		C422B710F65A38B1EBCD667F029F5EB7 /* Pods_rms_mobile_xdk_cocoapods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rms_mobile_xdk_cocoapods_Tests.framework; path = "Pods-rms-mobile-xdk-cocoapods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C422B710F65A38B1EBCD667F029F5EB7 /* Pods_rms_mobile_xdk_cocoapods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rms_mobile_xdk_cocoapods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6ABD67232700C9C57AAA90DB7DEB0E0 /* Pods-rms-mobile-xdk-cocoapods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rms-mobile-xdk-cocoapods_Tests-Info.plist"; sourceTree = "<group>"; };
-		D8A873691B0FF1E1AC66E3072371D8EA /* Pods_rms_mobile_xdk_cocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rms_mobile_xdk_cocoapods_Example.framework; path = "Pods-rms-mobile-xdk-cocoapods_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A873691B0FF1E1AC66E3072371D8EA /* Pods_rms_mobile_xdk_cocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rms_mobile_xdk_cocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5636A636FB20679BF4D357607A7959 /* MOLPayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOLPayLib.h; path = "rms-mobile-xdk-cocoapods/Classes/MOLPayLib.h"; sourceTree = "<group>"; };
 		EF5D6FF06D575F9E61A7299DE2F90ECF /* Pods-rms-mobile-xdk-cocoapods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rms-mobile-xdk-cocoapods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EFE1EB142836CF32935DE8F0A050DA36 /* Pods-rms-mobile-xdk-cocoapods_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rms-mobile-xdk-cocoapods_Example-Info.plist"; sourceTree = "<group>"; };
-		FCB84A650396E5585C67BF984FB4D751 /* rms-mobile-xdk-cocoapods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "rms-mobile-xdk-cocoapods.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FCB84A650396E5585C67BF984FB4D751 /* rms-mobile-xdk-cocoapods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "rms-mobile-xdk-cocoapods.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +298,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6433634161610C46959F22EE510A3242 = {
+						DevelopmentTeam = 66L78PU46C;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -504,8 +510,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -580,12 +585,13 @@
 			baseConfigurationReference = 2DB534773F130877DDECA3CDD27D6C3B /* Pods-rms-mobile-xdk-cocoapods_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 66L78PU46C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -627,12 +633,13 @@
 			baseConfigurationReference = 65B6B96A23DA904AF3715B8B41C9BF6A /* Pods-rms-mobile-xdk-cocoapods_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 66L78PU46C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
