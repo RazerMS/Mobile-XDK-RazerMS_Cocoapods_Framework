@@ -84,6 +84,14 @@
                                                                            target:self
                                                                            action:@selector(closemolpay:)];
     mp.navigationItem.hidesBackButton = YES;
+    if (@available(iOS 15.0, *)) {
+        UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+        [appearance configureWithOpaqueBackground];
+        appearance.titleTextAttributes = @{NSForegroundColorAttributeName : UIColor.whiteColor};
+        appearance.backgroundColor = [UIColor whiteColor];
+        [UINavigationBar appearance].standardAppearance = appearance;
+        [UINavigationBar appearance].scrollEdgeAppearance = appearance;
+    }
     
     // Push method (This requires host navigation controller to be available at this point of runtime process,
     // refer AppDelegate.m for sample Navigation Controller implementations)
