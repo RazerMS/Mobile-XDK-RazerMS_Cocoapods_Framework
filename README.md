@@ -12,9 +12,9 @@ This is the complete and functional Razer Merchant Services iOS payment module t
 
 ## Recommended configurations
 
-    - Xcode version: 9 ++
+    - Xcode version: 13 ++
 
-    - Minimum target version: iOS 8
+    - Minimum target version: iOS 11
 
 ## Installation Guidance
 
