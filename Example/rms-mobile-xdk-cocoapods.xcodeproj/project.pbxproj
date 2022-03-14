@@ -506,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 107E04A23316312DEE1DE9C6 /* Pods-rms-mobile-xdk-cocoapods_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -531,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C1CBE766D6D4D13326C5187 /* Pods-rms-mobile-xdk-cocoapods_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
