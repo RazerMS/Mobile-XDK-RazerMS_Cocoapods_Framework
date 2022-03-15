@@ -71,6 +71,7 @@
 		C6ABD67232700C9C57AAA90DB7DEB0E0 /* Pods-rms-mobile-xdk-cocoapods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rms-mobile-xdk-cocoapods_Tests-Info.plist"; sourceTree = "<group>"; };
 		D8A873691B0FF1E1AC66E3072371D8EA /* Pods_rms_mobile_xdk_cocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rms_mobile_xdk_cocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5636A636FB20679BF4D357607A7959 /* MOLPayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOLPayLib.h; path = "rms-mobile-xdk-cocoapods/Classes/MOLPayLib.h"; sourceTree = "<group>"; };
+		E1A730C527E0872F000E58F1 /* rms-mobile-xdk-cocoapods_Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "rms-mobile-xdk-cocoapods_Bridging-Header.h"; path = "rms-mobile-xdk-cocoapods/Classes/rms-mobile-xdk-cocoapods_Bridging-Header.h"; sourceTree = "<group>"; };
 		EF5D6FF06D575F9E61A7299DE2F90ECF /* Pods-rms-mobile-xdk-cocoapods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rms-mobile-xdk-cocoapods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EFE1EB142836CF32935DE8F0A050DA36 /* Pods-rms-mobile-xdk-cocoapods_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rms-mobile-xdk-cocoapods_Example-Info.plist"; sourceTree = "<group>"; };
 		FCB84A650396E5585C67BF984FB4D751 /* rms-mobile-xdk-cocoapods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "rms-mobile-xdk-cocoapods.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -132,6 +133,7 @@
 		77A419105B61DFE61C11192E1C5EEA30 /* rms-mobile-xdk-cocoapods */ = {
 			isa = PBXGroup;
 			children = (
+				E1A730C527E0872F000E58F1 /* rms-mobile-xdk-cocoapods_Bridging-Header.h */,
 				DF5636A636FB20679BF4D357607A7959 /* MOLPayLib.h */,
 				B2D6D422397788B8C48861EB6716EDAD /* Frameworks */,
 				9C109557D4F6CE063C78392FB4FBF192 /* Pod */,
