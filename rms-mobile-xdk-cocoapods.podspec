@@ -41,4 +41,6 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   s.resource = 'MOLPayXDK.bundle'
   s.vendored_frameworks = 'MOLPayXDK.framework'
+  s.ios.dependency 'MOLPayXDK-Swift'
+  
 end
