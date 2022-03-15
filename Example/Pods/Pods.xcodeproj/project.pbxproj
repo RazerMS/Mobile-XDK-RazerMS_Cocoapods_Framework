@@ -380,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1238AE0202F748FF991037976D3A76EF /* rms-mobile-xdk-cocoapods.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -619,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1238AE0202F748FF991037976D3A76EF /* rms-mobile-xdk-cocoapods.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
