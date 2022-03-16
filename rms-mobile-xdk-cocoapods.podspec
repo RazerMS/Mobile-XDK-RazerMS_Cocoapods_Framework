@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'rms-mobile-xdk-cocoapods/Classes/**/*.{h,m}'
   s.public_header_files = 'rms-mobile-xdk-cocoapods/Classes/**/*.h'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
 
   # s.resource_bundles = {
   #   'rms-mobile-xdk-cocoapods' => ['rms-mobile-xdk-cocoapods/Assets/*.png']
