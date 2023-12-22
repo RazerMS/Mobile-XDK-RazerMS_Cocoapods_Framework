@@ -61,7 +61,7 @@
         //@"mp_filter": @"", // Optional for debit card transactions only
         //@"mp_custom_css_url": [[NSBundle mainBundle] pathForResource:@"custom.css" ofType:nil], // Optional for custom UI
         //@"mp_is_recurring": [NSNumber numberWithBool:NO] // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf
-        //@"mp_allowed_channels": [NSArray arrayWithObjects:@"credit", @"credit3", nil] // Optional for channels restriction
+       // @"mp_allowed_channels": [NSArray arrayWithObjects:@"credit", @"ApplePay", nil], // Optional for channels restriction
         //@"mp_sandbox_mode": [NSNumber numberWithBool:YES] // Optional for sandboxed development environment, set boolean value to enable.
         //@"mp_express_mode": [NSNumber numberWithBool:NO] // Optional, required a valid mp_channel value, this will skip the payment info page and go direct to the payment screen.
         //@"mp_advanced_email_validation_enabled": [NSNumber numberWithBool:YES] // Optional, enable this for extended email format validation based on W3C standards.
@@ -76,6 +76,7 @@
         //@"mp_card_list_disabled": [NSNumber numberWithBool:YES] // Optional, disable card list option.
         //@"mp_disabled_channels": [NSArray arrayWithObjects:@"credit", nil] // Optional for channels restriction, this option has less priority than mp_allowed_channels.
         //@"mp_dev_mode": [NSNumber numberWithBool:YES]
+       // @"mp_ap_merchant_ID": @""
         };
     
     mp = [[MOLPayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];

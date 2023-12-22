@@ -6,7 +6,7 @@
 @required
 - (void)transactionResult: (NSDictionary *)result;
 @end
-    
+
 @interface MOLPayLib : UIViewController
 
 @property (nonatomic, strong) id <MOLPayLibDelegate> delegate;
