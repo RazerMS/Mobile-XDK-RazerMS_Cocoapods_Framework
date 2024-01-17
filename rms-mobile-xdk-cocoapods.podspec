@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '11.0'
   s.requires_arc = true
 
-  s.source_files = 'rms-mobile-xdk-cocoapods/Classes/**/*.{h,m,swift}'
+  s.source_files = 'rms-mobile-xdk-cocoapods/Classes/**/*.{h,m}'
   s.public_header_files = 'rms-mobile-xdk-cocoapods/Classes/**/*.h'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
