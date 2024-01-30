@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'rms-mobile-xdk-cocoapods'
-  s.version          = '3.33.3-rc1'
+  s.version          = '3.33.6'
   s.summary          = 'Razer Merchant Services Mobile XDK.'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'rms-mobile-xdk-cocoapods/Classes/**/*.h'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'rms-mobile-xdk-cocoapods' => ['rms-mobile-xdk-cocoapods/Assets/*.png']
   # }
