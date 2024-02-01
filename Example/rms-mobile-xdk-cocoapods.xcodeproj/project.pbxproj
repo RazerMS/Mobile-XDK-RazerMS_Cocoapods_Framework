@@ -498,7 +498,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66L78PU46C;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rms-mobile-xdk-cocoapods/rms-mobile-xdk-cocoapods-Prefix.pch";
 				INFOPLIST_FILE = "rms-mobile-xdk-cocoapods/rms-mobile-xdk-cocoapods-Info.plist";
