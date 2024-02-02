@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'rms-mobile-xdk-cocoapods'
-  s.version          = '3.33.6-rc2'
+  s.version          = '3.33.6-rc3'
   s.summary          = 'Razer Merchant Services Mobile XDK.'
 
 # This description is used to generate tags and improve search results.
