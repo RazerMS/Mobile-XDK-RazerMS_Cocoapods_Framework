@@ -523,28 +523,14 @@
 			};
 			name = Debug;
 		};
-		78DE81E7D78BCACB6F71A3B99223B002 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A7C0F72529DA3CF9698AF81675CA5EC /* rms-mobile-xdk-cocoapods.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B2E79DF9C30C25692D21EB55996CC8B6 /* Release */ = {
+		61930E5249CF1016D89132851B22490E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA9A4AA61E372AE23AD20972211C250E /* rms-mobile-xdk-cocoapods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,6 +633,20 @@
 			};
 			name = Release;
 		};
+		D18234D34CA312CDA411CE94B0BF7D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7C0F72529DA3CF9698AF81675CA5EC /* rms-mobile-xdk-cocoapods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -680,8 +680,8 @@
 		D69833F4B650C0D113C5F324D9D67A79 /* Build configuration list for PBXAggregateTarget "rms-mobile-xdk-cocoapods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78DE81E7D78BCACB6F71A3B99223B002 /* Debug */,
-				B2E79DF9C30C25692D21EB55996CC8B6 /* Release */,
+				D18234D34CA312CDA411CE94B0BF7D59 /* Debug */,
+				61930E5249CF1016D89132851B22490E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
