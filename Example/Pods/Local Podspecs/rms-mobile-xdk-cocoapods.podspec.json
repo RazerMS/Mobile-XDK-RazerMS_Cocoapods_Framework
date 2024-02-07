@@ -1,6 +1,6 @@
 {
   "name": "rms-mobile-xdk-cocoapods",
-  "version": "3.33.6-rc4",
+  "version": "3.29.0",
   "summary": "Razer Merchant Services Mobile XDK.",
   "description": "Razer Merchant Services mobile payment for iOS (Cocoapods Framework)",
   "homepage": "https://github.com/RazerMS/rms-mobile-xdk-cocoapods",
@@ -13,18 +13,14 @@
   },
   "source": {
     "git": "https://github.com/RazerMS/rms-mobile-xdk-cocoapods.git",
-    "tag": "3.33.6-rc4"
+    "tag": "3.29.0"
   },
   "platforms": {
-    "ios": "12.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "source_files": "rms-mobile-xdk-cocoapods/Classes/**/*.{h,m}",
   "public_header_files": "rms-mobile-xdk-cocoapods/Classes/**/*.h",
-  "pod_target_xcconfig": {
-    "VALID_ARCHS": "x86_64 armv7 arm64"
-  },
-  "swift_versions": "5.0",
-  "vendored_frameworks": "MOLPayXDK.framework",
-  "swift_version": "5.0"
+  "resources": "MOLPayXDK.bundle",
+  "vendored_frameworks": "MOLPayXDK.framework"
 }
