@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'rms-mobile-xdk-cocoapods'
-  s.version          = '3.33.6-rc5'
+  s.version          = '3.33.6-rc6'
   s.summary          = 'Razer Merchant Services Mobile XDK.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.resource = 'MOLPayXDK.bundle'
+  # s.resource = 'MOLPayXDK.bundle'
   s.vendored_frameworks = 'MOLPayXDK.framework'
   
 end
