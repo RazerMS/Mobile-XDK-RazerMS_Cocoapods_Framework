@@ -18,7 +18,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
 
 ## Installation Guidance
 
-[Installation](https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Cocoapods_Framework/wiki/Installation-Guidance)
+[Installation](https://github.com/RazerMS/rms-mobile-xdk-cocoapods/wiki/Installation-Guidance)
 
 
 ## Resources
