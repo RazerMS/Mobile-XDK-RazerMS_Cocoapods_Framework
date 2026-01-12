@@ -10,6 +10,10 @@ This is the complete and functional Razer Merchant Services iOS payment module t
 
 这是完整的功能性 Razer Merchant Services iOS 支付模块，可以通过 Cocoapods 框架实现到 Xcode 应用程序项目中。为 MOLPayXDK 框架集成参考提供了一个示例 Cocoapods 应用程序项目（示例）。
 
+UPDATE NOTICE
+-----------------
+Latest Mobile XDK Cocoapods Framework moved to new URL https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Cocoapods_Framework
+
 ## Recommended configurations
 
     - Xcode version: 13 ++
