@@ -1,3 +1,9 @@
+<!--
+ # license: Copyright © 2011-2019 MOLPay Sdn Bhd. All Rights Reserved. 
+ -->
+
+<img src="https://user-images.githubusercontent.com/38641542/74150364-ba947500-4c44-11ea-8d79-ae8cd4352816.jpg">
+
 # 🚚 Repository Moved
 
 This repository has been moved to a new location and is no longer actively maintained.
@@ -11,12 +17,6 @@ All future updates, bug fixes, and feature enhancements will be published in the
 Thank you for your support.
 
 ---
-
-<!--
- # license: Copyright © 2011-2019 MOLPay Sdn Bhd. All Rights Reserved. 
- -->
-
-<img src="https://user-images.githubusercontent.com/38641542/74150364-ba947500-4c44-11ea-8d79-ae8cd4352816.jpg">
 
 # [Mobile XDK] – RazerMS Cocoapods Framework
 
@@ -56,3 +56,4 @@ Channel/Partner Enquiry : channel@fiuu.com <br>
 Media Contact : media@fiuu.com <br>
 R&D and Tech-related Suggestion : technical@fiuu.com <br>
 Abuse Reporting : abuse@fiuu.com
+
